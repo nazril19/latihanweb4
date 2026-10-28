@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="artikel.html">Artikel</a>
+                <a href="about.html" class="active">About</a>
+                <a href="kontak.html">Kontak</a>
+            </nav>
+        <section id="hero">
+            <h1>About</h1>
+            <p>Kenali lebih dekat siapa saya, keahlian yang dimiliki, serta karya yang pernah dibuat.</p>
+        </section>
+        <section id="wrapper">
+            <section id="main">
+                <!-- Deskripsi -->
+                <article class="profile">
+                    <img src="https://dummyimage.com/150/1f5faa/fff.png&text=Foto" alt="Foto profil">
+                    <h2>Nama Mahasiswa</h2>
+                    <p class="role">Mahasiswa Teknik Informatika - Universitas Pelita Bangsa</p>
+                    <p>Halo! Saya mahasiswa yang sedang belajar Pemrograman Web. Saya tertarik pada pengembangan website, desain antarmuka, dan teknologi baru. Halaman ini dibuat sebagai tugas Praktikum 4: CSS Layout.</p>
+                </article>
+
+                <hr class="divider">
+                <!-- Keahlian -->
+                <h3 class="section-title">Keahlian</h3>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>Git &amp; GitHub</li>
+                </ul>
+
+                <hr class="divider">
+                <!-- Portfolio -->
+                <h3 class="section-title">Portfolio</h3>
+                <div class="row portfolio">
+                    <div class="box">
+                        <img src="https://dummyimage.com/200x140/db7d25/fff.png&text=Project+1" alt="Project 1">
+                        <h3>Website Profil</h3>
+                        <p>Halaman profil pribadi dengan layout responsif sederhana.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/200x140/3e73e6/fff.png&text=Project+2" alt="Project 2">
+                        <h3>Toko Online</h3>
+                        <p>Prototipe toko online dengan daftar produk dan keranjang.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/200x140/71e6d4/fff.png&text=Project+3" alt="Project 3">
+                        <h3>Blog Mini</h3>
+                        <p>Blog sederhana menggunakan HTML5 semantic element.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                </div>
+            </section>
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Info Singkat</h3>
+                    <ul class="info-list">
+                        <li><p><strong>Nama:</strong> Nama Mahasiswa</p></li>
+                        <li><p><strong>NIM:</strong> 0000000000</p></li>
+                        <li><p><strong>Kelas:</strong> TI.XX.XX</p></li>
+                        <li><p><strong>Kampus:</strong> Universitas Pelita Bangsa</p></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Tautan</h3>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="kontak.html">Hubungi Saya</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
